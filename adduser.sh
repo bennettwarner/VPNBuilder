@@ -32,3 +32,6 @@ echo "</cert>
 cat /etc/openvpn/easy-rsa/keys/$user.key >> $user.ovpn
 echo "</key>" >> $user.ovpn
 
+echo "
+Config Created...
+$current_path/$user.ovpn"
