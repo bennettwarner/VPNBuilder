@@ -98,3 +98,6 @@ RemainAfterExit=yes
 [Install]
 WantedBy=multi-user.target" > /etc/systemd/system/openvpn-iptables.service
 systemctl enable --now openvpn-iptables.service
+
+echo "
+Server installed successfully..."
